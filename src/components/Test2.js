@@ -14,20 +14,20 @@ const Test2 = () => {
       "answer": "One-way slab"
     },
     {
-      "question": "What should not be placed in the intake?",
-      "options": ["Navigation channel"],
-      "answer": "Navigation channel"
+      "question": "What is the name of the sewer that carries sewage from multiple main sewers?",
+      "options": ["Intercepting", "Combined", "A & B", "None"],
+      "answer": "Intercepting"
     },
     {
-      "question": "At which DO (Dissolved Oxygen) value does aquatic life not survive?",
-      "options": ["(DO values to be provided)"],
-      "answer": "(DO answer to be provided)"
-    },
-    {
-      "question": "Which method is applied for a rapidly growing population?",
-      "options": ["(Method options to be provided)"],
-      "answer": "(Method answer to be provided)"
-    },
+      "question": "Uplifting pressure is important for the stability of which dam?",
+      "options": ["Earthen dam", "Concrete dam", "Cofferdam", "Buttress dam"],
+      "answer": "Concrete dam"
+  },
+  {
+    "question": "What is the specific gravity of a block if its weight in air is 60N and 40N when immersed in water?",
+    "options": ["3", "5", "4", "2"],
+    "answer": "3"
+},
 
     {
       "question": "Which shape is good for a surface drain?",
