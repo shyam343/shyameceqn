@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+/* Global button styling */
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Active button style */
+.active-btn {
+  background-color: #28a745; /* Green for active test button */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Hamburger menu styles */
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #4649FF;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #007bff; /* Same as button color */
+  position: absolute;
+  top: 60px; /* Adjust based on your layout */
+  right: 0;
+  width: 100%; /* Full width for mobile menu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button styles */
+.close-btn {
+  font-size: 2rem;
   color: white;
+  cursor: pointer;
+  align-self: flex-end; /* Aligns the close button to the right */
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Desktop menu for larger screens */
+.desktop-menu {
+  display: none; /* Hidden by default */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive layout for mobile and tablets */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    background-color:#4649FF ;
+    border-radius: 5px;
+    text-emphasis-color: White ;
   }
-  to {
-    transform: rotate(360deg);
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  .App {
+    padding: 20px;
+  }
+
+  /* Show hamburger icon on small screens */
+  .hamburger {
+    display: block; /* Show the hamburger icon */
+    background-color: #4649FF;
+  }
+}
+
+/* Larger screen (desktop) */
+@media (min-width: 769px) {
+  h1 {
+    font-size: 2.5rem;
+    background-color:#4649FF ;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+
+  .desktop-menu {
+    display: flex; /* Show all test buttons on larger screens */
+    flex-direction: row; /* Align buttons in a row */
   }
 }

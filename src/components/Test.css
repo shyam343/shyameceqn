@@ -1,0 +1,103 @@
+/* Center the quiz content */
+.test-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #2a9cb3;
+  padding: 20px;
+}
+
+.quiz-content {
+  background-color: rgb(54, 39, 184);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Option styling */
+.options {
+  margin-top: 20px;
+}
+
+.option-box {
+  background-color: rgb(94, 178, 195);
+  border: 1px solid rgb(94, 178, 195);
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.option-box:hover {
+  background-color: #ddd;
+}
+
+/* Correct and incorrect answer colors */
+.correct {
+  background-color: green !important;
+  color: white;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: white;
+}
+
+.result-container {
+  text-align: center;
+}
+
+.result-question {
+  margin-bottom: 20px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .quiz-content {
+    padding: 20px;
+    max-width: 400px;
+  }
+
+  .option-box {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-content {
+    padding: 15px;
+    max-width: 300px;
+  }
+
+  .option-box {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+  .quiz-content {
+    max-width: 600px;
+    padding: 40px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
