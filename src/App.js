@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>SahCivilQuiz App</h1>
+      <h1>SAHECEQuiz App</h1>
 
       {/* Hamburger Icon */}
       <div className="hamburger" onClick={toggleMenu}>

@@ -4,41 +4,40 @@ import './Test.css'; // Import local CSS
 const Test2 = () => {
   const questions = [
     {
-      "question": "What is the maximum length of reinforcement to be taken for an RCC column?",
-      "options": ["12m", "10m", "15m", "11m"],
-      "answer": "12m"
+      "question": "Which of the following pencil leads is the hardest?",
+      "options": ["HB", "H", "B", "F"],
+      "answer": "H"
     },
     {
-      "question": "What is the name of the slab that is continuously supported in two directions but carries load in only one direction?",
-      "options": ["One-way slab", "Two-way slab", "A & B", "None"],
-      "answer": "One-way slab"
+      "question": "Convert this binary data into decimal: (1011.1011)₂",
+      "options": ["11.6875", "11.567", "10.6875", "10.3578"],
+      "answer": "11.6875"
     },
     {
-      "question": "What is the name of the sewer that carries sewage from multiple main sewers?",
-      "options": ["Intercepting", "Combined", "A & B", "None"],
-      "answer": "Intercepting"
+      "question": "Master-slave flip-flop is also referred to as?",
+      "options": ["Level triggered flip-flop", "Pulse triggered flip-flop", "Edge triggered flip-flop", "Edge-Level triggered flip-flop"],
+      "answer": "Pulse triggered flip-flop"
     },
     {
-      "question": "Uplifting pressure is important for the stability of which dam?",
-      "options": ["Earthen dam", "Concrete dam", "Cofferdam", "Buttress dam"],
-      "answer": "Concrete dam"
-  },
-  {
-    "question": "What is the specific gravity of a block if its weight in air is 60N and 40N when immersed in water?",
-    "options": ["3", "5", "4", "2"],
-    "answer": "3"
-},
-
+      "question": "Total number of professional engineers registered in NEC?",
+      "options": ["31", "41", "51", "61"],
+      "answer": "61"
+    },
     {
-      "question": "Which shape is good for a surface drain?",
-      "options": ["Trapezoidal", "Circle", "Parabolic", "Triangular"],
-      "answer": "Trapezoidal"
-  },
-  {
-      "question": "In modern day, which type of gate in hydraulic structures is mostly used?",
-      "options": ["Sliding", "Roller", "Radial (Fixed wheel)", "Flap"],
-      "answer": "Radial (Fixed wheel)"
-  }
+      "question": "NEC (Nepal Engineering Council) must submit their annual report every year to?",
+      "options": ["Chairman", "Prime Minister", "Nepal government", "Government sub-secretary"],
+      "answer": "Prime Minister"
+    },
+    {
+      "question": "Tenure of the President of NEA?",
+      "options": ["4 years", "2 years", "3 years", "1 year"],
+      "answer": "4 years"
+    },
+    {
+      "question": "Fourier Transform of Aδ(t) is?",
+      "options": ["1", "A^2", "A", "0"],
+      "answer": "1"
+    }
     
     
   ];

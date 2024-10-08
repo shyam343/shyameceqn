@@ -4,46 +4,82 @@ import './Test.css'; // Import local CSS
 const Test1 = () => {
   const questions = [
     {
-      "question": "What does purlin help to avoid in a rafter?",
-      "options": ["Bending Moment (BM)", "Shear Force (SF)", "Deflection", "Bending Moment and Shear Force (BM and SF)"],
-      "answer": "Bending Moment and Shear Force (BM and SF)"
+      "question": "CMOS gates are commercially available as which of the following series?",
+      "options": ["1000", "2000", "3000", "4000"],
+      "answer": "4000"
     },
     {
-      "question": "Which method is the best way to stabilize sandy soil?",
-      "options": ["Cement", "Lime", "Mechanical", "Soil"],
-      "answer": "Cement"
+      "question": "What is the recommended level of illumination for an office room?",
+      "options": ["100", "200", "300", "600"],
+      "answer": "200"
     },
     {
-      "question": "What is the rate of stretching bitumen in a ductility test?",
-      "options": ["50mm", "20mm", "30mm", "40mm"],
-      "answer": "50mm"
+      "question": "A differentiator is usually not a part of a control system because it?",
+      "options": ["Reduces damping", "Reduces the gain margin", "Increases input noise", "Increases error"],
+      "answer": "Increases input noise"
     },
     {
-      "question": "What is the centroid of a cone?",
-      "options": ["h/1", "h/2", "h/3", "h/4"],
-      "answer": "h/4"
+      "question": "Which compensation is used to reduce the power loss in radial distribution?",
+      "options": ["Series capacitor compensation", "Shunt capacitor compensation", "Phase angle compensation", "Series inductor compensation"],
+      "answer": "Shunt capacitor compensation"
     },
     {
-      "question": "What does the line drawn from the pole to the circumference in Mohr's Circle represent?",
-      "options": ["Major principal plane", "Minor principal plane", "Plane inclined at the same angle to the principal plane", "None"],
-      "answer": "Plane inclined at the same angle to the principal plane"
+      "question": "Which layer of the OSI model is responsible for authorization and authentication?",
+      "options": ["Data link layer", "Session layer", "Application layer", "Presentation layer"],
+      "answer": "Session layer"
     },
     {
-      "question": "Which material has the lowest safe exit gradient using Khosla's theory?",
-      "options": ["Fine sand", "Gravel", "Shigel", "Clay"],
-      "answer": "Fine sand"
-  },
-  {
-      "question": "Uplifting pressure is important for the stability of which dam?",
-      "options": ["Earthen dam", "Concrete dam", "Cofferdam", "Buttress dam"],
-      "answer": "Concrete dam"
-  },
-    
+      "question": "Which of the following operations cannot be performed on pointers in C?",
+      "options": ["Addition", "Subtraction", "Multiplication", "Comparison"],
+      "answer": "Addition"
+    },
     {
-      "question": "What nominal mix of concrete is required for roofing of RCC?",
-      "options": ["M15", "M20", "M10", "M5"],
-      "answer": "M20"
+      "question": "According to NEC, what is the wire conductor size requirement for lighting and power sockets?",
+      "options": ["1.5 sq mm and 4 sq. mm", "2.4 sq. mm and 6 sq.mm", "1.5 sq.mm and 6 sq.mm", "2.4 sq.mm and 4 sq.mm"],
+      "answer": "1.5 sq mm and 4 sq. mm"
+    },
+    {
+      "question": "How many minimum basic function blocks are required for a communication system?",
+      "options": ["2", "5", "3", "7"],
+      "answer": "3"
+    },
+    {
+      "question": "What is the maximum number of dimensions an array in C may have?",
+      "options": ["2", "8", "3", "No limit"],
+      "answer": "No limit"
+    },
+    {
+      "question": "The bus is available when the DMA controller receives the signal?",
+      "options": ["HRQ", "HLDA", "DACK", "All of the mentioned"],
+      "answer": "HLDA"
+    },
+    {
+      "question": "How many segment registers are there in 8086?",
+      "options": ["5", "4", "8", "16"],
+      "answer": "4"
+    },
+    {
+      "question": "In a parallel circuit, which parameter remains the same?",
+      "options": ["Voltage", "Current", "Power", "Frequency"],
+      "answer": "Voltage"
+    },
+    {
+      "question": "Which parameter consumes power?",
+      "options": ["Capacitance", "Inductance", "Resistance", "Both a and b"],
+      "answer": "Resistance"
+    },
+    {
+      "question": "The forward characteristics of a diode are 50mV/µA. What is the forward resistance?",
+      "options": ["50", "35", "37", "25"],
+      "answer": "25"
+    },
+    {
+      "question": "Which oscillator is based on the piezoelectric effect?",
+      "options": ["LC oscillator", "Crystal oscillator", "a & b", "None"],
+      "answer": "Crystal oscillator"
     }
+    
+    
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);

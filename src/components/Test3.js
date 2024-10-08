@@ -4,40 +4,124 @@ import './Test.css'; // Import local CSS
 const Test3 = () => {
   const questions = [
     {
-      "question": "According to Rankine theory, what is the minimum depth of foundation given a bearing stress of 180kN/m³, unit weight of 20kN/m³, and an internal angle of friction of 30 degrees?",
-      "options": ["9m", "1m", "0.5m", "0.75m"],
-      "answer": "0.75m"
+      "question": "Choose the correct statement about the C language break; statement.",
+      "options": [
+        "A single break; statement can force execution control to come out of only one loop.",
+        "A single break; statement can force execution control to come out of a maximum of two nested loops.",
+        "A single break; statement can force execution control to come out of a maximum of three nested loops.",
+        "None of the above."
+      ],
+      "answer": "A single break; statement can force execution control to come out of only one loop."
     },
     {
-      "question": "If atmospheric pressure is 740mm of Hg and suction pressure is 10kPa, what is the absolute pressure?",
-      "options": ["88.3kPa", "89.3kPa", "87.3kPa", "86.3kPa"],
-      "answer": "88.3kPa"
+      "question": "What is an inline function?",
+      "options": [
+        "A function that is expanded at each call during execution.",
+        "A function that is called during compile time.",
+        "A function that is not checked for syntax errors.",
+        "A function that is not checked for semantic analysis."
+      ],
+      "answer": "A function that is expanded at each call during execution."
     },
     {
-      "question": "What is the portion of the span where plastic hinges form for a concentrated load at the mid-span of a simply supported beam?",
-      "options": ["L/2", "L/3", "L/4", "L"],
-      "answer": "L/2"
+      "question": "In an overhead transmission line, conductor current concentration occurs on the surface of the conductor due to?",
+      "options": [
+        "High current flowing.",
+        "Low current flowing.",
+        "Both a and b.",
+        "None of the above."
+      ],
+      "answer": "High current flowing."
     },
     {
-      "question": "If there are 2 or more columns in a foundation, what is the name of the foundation?",
-      "options": ["Combined", "Raft", "Both A & B", "Only B"],
-      "answer": "Combined"
+      "question": "Why is function definition required in C?",
+      "options": [
+        "Functions are used to perform certain actions, and they are important for reusing code.",
+        "None"
+      ],
+      "answer": "Functions are used to perform certain actions, and they are important for reusing code."
     },
     {
-      "question": "If enough water for workability of concrete is already added, then increasing the water-cement ratio in the concrete results in?",
-      "options": ["Decreased strength and increased porosity in the concrete", "Increased strength and increased porosity in the concrete", "Decreased strength and decreased porosity in the concrete", "None"],
-      "answer": "Decreased strength and increased porosity in the concrete"
+      "question": "In TDM (Time Division Multiplexing), the bandwidth of the input source signal is __________ the transmitted composite signal.",
+      "options": [
+        "Greater than",
+        "Equal to",
+        "Less than"
+      ],
+      "answer": "Equal to"
     },
     {
-      "question": "Coincidence factor is the reciprocal of?",
-      "options": ["Diversity factor", "Total demand", "Load factor", "Plant factor"],
-      "answer": "Diversity factor"
-  },
-  {
-      "question": "Power of a centrifugal pump is proportional to the diameter of the wheel by what relation?",
-      "options": ["D^2", "D^3", "D^4", "D"],
-      "answer": "D^2"
-  }
+      "question": "In which mode of the 8255 PPI is handshaking carried out?",
+      "options": [
+        "Mode 0",
+        "Mode 1",
+        "Mode 2",
+        "Mode 3"
+      ],
+      "answer": "Mode 1"
+    },
+    {
+      "question": "In a transformer, the core is made of soft iron to reduce?",
+      "options": [
+        "Eddy current loss.",
+        "Hysteresis loss.",
+        "Force opposing electric current.",
+        "None of the above."
+      ],
+      "answer": "Hysteresis loss."
+    },
+    {
+      "question": "What happens to the speed of a synchronous motor if the load is halved?",
+      "options": [
+        "Remains the same.",
+        "Increases.",
+        "Decreases.",
+        "Halves the speed."
+      ],
+      "answer": "Remains the same."
+    },
+    {
+      "question": "Dummy strain gauges are used for?",
+      "options": [
+        "Calibration.",
+        "Compensation for temperature variation.",
+        "Increase bridge sensitivity.",
+        "None of the above."
+      ],
+      "answer": "Compensation for temperature variation."
+    },
+    {
+      "question": "Which is not associated with the dynamic characteristics of measurement?",
+      "options": ["Measuring lag", "Fidelity", "Speed of response", "Accuracy"],
+      "answer": "Accuracy"
+    },
+    {
+      "question": "Find the Z-transform of δ(n + 3).",
+      "options": ["z", "z2", "1", "z3"],
+      "answer": "z3"
+    },
+    {
+      "question": "The Superposition Theorem is not applicable for ___",
+      "options": ["Power calculation", "Voltage calculation", "Current Calculation", "Both Voltage and Current calculation"],
+      "answer": "Power calculation"
+    },
+    {
+      "question": "When the pointer of an indicating instrument is in motion, then the deflecting torque is opposed by:",
+      "options": ["Damping torque", "Controlling torque", "Both damping torque and controlling torque", "Rotating torque"],
+      "answer": "Both damping torque and controlling torque"
+    },
+    {
+      "question": "Which of the following connection is best suited for 3 phase 4 wire service?",
+      "options": ["ΔΔ", "YY", "ΔY", "YΔ"],
+      "answer": "YY"
+    },
+    {
+      "question": "When the number of poles is equal to the number of zeros, how many branches of root locus tend towards infinity?",
+      "options": ["1", "2", "0", "Equal to the number of zeros"],
+      "answer": "0"
+    }
+    
+    
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
